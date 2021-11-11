@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(173, 173, 173);
+  }
+  
+.container{
+ padding-top: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 26px;
+  font-weight: bold;
+  flex-wrap: wrap;
+} 
+a{
+  display: block;
+}
+.left{
+  width: 50%; 
+}
+.right{
+  width: 40%; 
+
+}
+.post, .comment {
+       
+    text-align: left;
+    font-size: 10px;
+}  
